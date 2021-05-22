@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <div class="nav">Network</div>
+        <p class="title">Your Feed</p>
+        <div class="mainContent"> <!--flex-->
+            <div class="profile">
+                <img src="user-circle.png" alt="#">
+                <a class="profileContent" href="#" alt="#">Add an Avatar</a>
+                <p class="profileContent">James Doe</p>
+            </div>
+            <div class="postList">
+                <div class="post">
+                    <div class="userLikes">
+                        <h1 class="user">Some User</h1>
+                        <p class="counter">0 likes</p>
+                        <button class="likeButton" onclick="countLike()">Like</button>
+                    </div>
+                    <p class="filler">This is some filler text, it can say anything we like</p>
+                </div> <!--post-->
+                <div class="post">
+                    <div class="userLikes">
+                        <h1 class="user">Some User</h1>
+                        <p class="counter2">0 likes</p>
+                        <button class="likeButton" onclick="countLike2()">Like</button>
+                    </div>
+                    <p class="filler">This is some filler text, it can say anything we like</p>
+                </div> <!--post-->
+                <div class="post">
+                    <div class="userLikes">
+                        <h1 class="user">Some User</h1>
+                        <p class="counter3">0 likes</p>
+                        <button class="likeButton" onclick="countLike3()">Like</button>
+                    </div>
+                    <p class="filler">This is some filler text, it can say anything we like</p>
+                </div> <!--post-->
+            </div>
+        </div>
+    </div> <!--container-->
+    <script src="script.js"></script>
+</body>
+</html>
